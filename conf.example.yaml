@@ -1,0 +1,24 @@
+app:
+  name: be-capstone-project
+  host: localhost
+  port: 8080
+store:
+  driver: postgresql
+  host: localhost
+  db: testdb
+  port: 5400
+  user: postgres
+  password: 123456
+  is_debug: true
+redis:
+  host: redis://127.0.0.1:6379/
+otp:
+  test_enable: false
+  test_pattern: ""
+  max_request_per_day: 3
+  resend_ttl: 3
+  max_verify_per_day: 3
+  ttl_block_three: 3
+  ttl_block_max: 5
+
+
